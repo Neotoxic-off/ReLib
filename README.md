@@ -29,3 +29,9 @@ The goal is to build a lightweight library without external requirement
   typefooter="footer text-left"
 />
 ```
+
+## Example
+<p align="center">
+  <img href="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-column.png"/>
+  <img href="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-line.png"/>
+</p>
