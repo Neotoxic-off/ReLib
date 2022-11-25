@@ -32,6 +32,6 @@ The goal is to build a lightweight library without external requirement
 
 ## Example
 <p align="center">
-  <img href="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-column.png"/>
-  <img href="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-line.png"/>
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-column.png" width="50%" height="50%">
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-line.png" width="50%" height="50%">
 </p>
