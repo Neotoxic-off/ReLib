@@ -1,5 +1,4 @@
-# ReLib
-🦜 Minimal ReactJS Library
+# ReLib: 🦜 Minimal ReactJS Library
 
 ## Description
 The goal is to build a lightweight library without external requirement
