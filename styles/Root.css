@@ -1,0 +1,13 @@
+:root {
+  --purple: blueviolet;
+  --pink: #DA00D5;
+  
+  --background: black;
+  --foreground: white;
+  --border: white;
+  --description: #4D4D4D;
+  --selection: #191919;
+
+  --margin: 10px;
+  --radius: 0.6rem;
+}
