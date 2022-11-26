@@ -26,15 +26,19 @@
 }
 
 .body {
-  font-size: 1rem;
-
   color: var(--foreground);
-
+  
+  font-size: 1rem;
+  
   margin-bottom: var(--margin);
 }
 
 .footer {
   font-size: 1rem;
-
+  
   color: var(--foreground);
+}
+
+.body-align {
+  white-space: pre-line;
 }

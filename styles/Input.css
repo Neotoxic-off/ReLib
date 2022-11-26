@@ -1,0 +1,22 @@
+@import "Root.css";
+
+.line {
+  color: var(--foreground);
+
+  outline: none;
+  outline-style: none;
+
+  border-bottom: solid var(--foreground) 1px;
+  padding: 3px 10px;
+}
+
+.transparent {
+  color: var(--foreground);
+  background-color: transparent;
+
+  outline: none;
+  outline-style: none;
+  border: none;
+
+  font-size: 1rem;
+}

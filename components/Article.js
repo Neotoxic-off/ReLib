@@ -12,9 +12,9 @@ class Article extends React.Component {
         <div className={this.props.typedescription}>
           {this.props.description}
         </div>
-        <div className={this.props.typebody}>
+        <p className={this.props.typebody}>
           {this.props.body}
-        </div>
+        </p>
         <div className={this.props.typefooter}>
           {this.props.footer}
         </div>

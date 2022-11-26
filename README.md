@@ -6,6 +6,7 @@ The goal is to build a lightweight library without external requirement
 ## Components
 
 ### Button
+#### Contained
 ```JS
 <Button
   type="button contained item-left"
@@ -13,6 +14,23 @@ The goal is to build a lightweight library without external requirement
   text="Download"
 />
 ```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/button/contained.png" width="50%" height="50%">
+</p>
+
+#### Filled
+```JS
+<Button
+  type="button filled item-left"
+  link="https://github.com/Neotoxic-off/ReLib"
+  text="Download"
+/>
+```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/button/filled.png" width="50%" height="50%">
+</p>
 
 ### Article
 ```JS
@@ -28,182 +46,15 @@ The goal is to build a lightweight library without external requirement
   typefooter="footer text-left"
 />
 ```
-
-## Example
-
-### Card
-#### Vertical
-```JS
-import "../ReLib/styles/Root.css"
-import "../ReLib/styles/Grid.css"
-import "../ReLib/styles/Panel.css"
-
-import Article from "../ReLib/components/Article";
-import Button from "../ReLib/components/Button";
-
-function Vertical() {
-  return (
-    <>
-      <div className="grid line panel">
-        <div className="item article">
-          <Article
-            title="Title"
-            description="description"
-            body="body"
-            footer="footer"
-
-            typetitle="title text-left"
-            typedescription="description text-left"
-            typebody="body text-left"
-            typefooter="footer text-left"
-          />
-          <Button
-            type="button contained item-left"
-            link="https://github.com/Neotoxic-off/ReLib"
-            text="Download"
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default Home;
-```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-line.png" width="50%" height="50%">
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/line.png" width="50%" height="50%">
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/column.png" width="50%" height="50%">
 </p>
 
-#### Vertical
+### Input
 ```JS
-import "../ReLib/styles/Root.css"
-import "../ReLib/styles/Grid.css"
-import "../ReLib/styles/Panel.css"
-
-import Article from "../ReLib/components/Article";
-import Button from "../ReLib/components/Button";
-
-function Horizontal() {
-  return (
-    <>
-      <div className="grid column panel">
-        <div className="item article">
-          <Article
-            title="Title"
-            description="description"
-            body="body"
-            footer="footer"
-
-            typetitle="title text-left"
-            typedescription="description text-left"
-            typebody="body text-left"
-            typefooter="footer text-left"
-          />
-          <Button
-            type="button contained item-left"
-            link="https://github.com/Neotoxic-off/ReLib"
-            text="Download"
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default Home;
+<Input text="text" type="transparent" placeholder="username"/>
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-column.png" width="50%" height="50%">
-</p>
-
-#### Multiple
-```JS
-import "../ReLib/styles/Root.css"
-import "../ReLib/styles/Grid.css"
-import "../ReLib/styles/Panel.css"
-
-import Article from "../ReLib/components/Article";
-import Button from "../ReLib/components/Button";
-
-function Home() {
-  return (
-    <>
-      <div className="grid line panel">
-        <div className="item article">
-          <Article title="GRID 1"
-            description="Item 1"
-            body="body"
-            footer="footer"
-
-            typetitle="title text-left"
-            typedescription="description text-left"
-            typebody="body text-left"
-            typefooter="footer text-left"
-          />
-          <Button type="button contained item-left"
-            link="https://github.com/Neotoxic-off/ReLib"
-            text="Download"
-          />
-        </div>
-        <div className="item article">
-          <Article title="GRID 1"
-            description="Item 2"
-            body="body"
-            footer="footer"
-
-            typetitle="title text-left"
-            typedescription="description text-left"
-            typebody="body text-left"
-            typefooter="footer text-left"
-          />
-          <Button type="button contained item-left"
-            link="https://github.com/Neotoxic-off/ReLib"
-            text="Download"
-          />
-        </div>
-      </div>
-
-      <div className="grid line panel">
-        <div className="item article">
-          <Article title="GRID 2"
-            description="Item 1"
-            body="body"
-            footer="footer"
-
-            typetitle="title text-left"
-            typedescription="description text-left"
-            typebody="body text-left"
-            typefooter="footer text-left"
-          />
-          <Button type="button contained item-left"
-            link="https://github.com/Neotoxic-off/ReLib"
-            text="Download"
-          />
-        </div>
-        <div className="item article">
-          <Article title="GRID 2"
-            description="Item 2"
-            body="body"
-            footer="footer"
-
-            typetitle="title text-left"
-            typedescription="description text-left"
-            typebody="body text-left"
-            typefooter="footer text-left"
-          />
-          <Button
-            type="button contained item-left"
-            link="https://github.com/Neotoxic-off/ReLib"
-            text="Download"
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default Home;
-```
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/card-multiple.png" width="50%" height="50%">
+  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/input/line.png" width="50%" height="50%">
 </p>
