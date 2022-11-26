@@ -48,7 +48,6 @@ The goal is to build a lightweight library without external requirement
 ```
 <p align="center">
   <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/line.png" width="50%" height="50%">
-  <img src="https://raw.githubusercontent.com/Neotoxic-off/ReLib/main/assets/card/column.png" width="50%" height="50%">
 </p>
 
 ### Input
