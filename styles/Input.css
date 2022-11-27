@@ -1,22 +1,29 @@
 @import "Root.css";
 
 .line {
+  border-bottom: solid var(--foreground) 1px;
+
   color: var(--foreground);
+
+  display: inline;
+
+  font-family: Roboto;
 
   outline: none;
   outline-style: none;
 
-  border-bottom: solid var(--foreground) 1px;
   padding: 3px 10px;
 }
 
 .transparent {
-  color: var(--foreground);
   background-color: transparent;
+  
+  border: none;
+
+  color: var(--foreground);
+  
+  font-size: 1rem;
 
   outline: none;
   outline-style: none;
-  border: none;
-
-  font-size: 1rem;
 }

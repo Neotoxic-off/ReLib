@@ -1,0 +1,13 @@
+@import "Root.css";
+@import "Font.css";
+@import "Align.css";
+
+.description {
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: italic;
+
+  color: var(--description);
+
+  margin-bottom: var(--margin);
+}

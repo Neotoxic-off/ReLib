@@ -1,0 +1,10 @@
+@import "Root.css";
+@import "Font.css";
+@import "Align.css";
+
+.footer {
+  font-family: Roboto;
+  font-size: 0.8rem;
+  
+  color: var(--footer);
+}

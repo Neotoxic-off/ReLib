@@ -1,0 +1,12 @@
+@import "Root.css";
+@import "Font.css";
+@import "Align.css";
+
+.body {
+  color: var(--foreground);
+
+  font-family: Roboto;
+  font-size: 1rem;
+  
+  margin-bottom: var(--margin);
+}
